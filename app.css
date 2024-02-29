@@ -1,0 +1,61 @@
+.welcome-h1{
+    color: black;
+    font-style: italic;
+}
+.sun img{
+    width: 50px;
+    height: 45px;
+    margin-left: 300px;
+}
+  .grey-button:hover {
+    background-color: #dc3545;
+  }
+  .containery{
+    align-items: center;
+    margin-right: 250px;
+  }
+  .grey-button {
+    background-color: #a0a0a0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  .rowx{
+    display:flex;
+  }
+  .welcome{
+    background-image: url(img/th.jpeg);
+    padding-top: 300px;
+    background-repeat:no-repeat;
+    background-size: cover;
+  
+  }
+  .welcome h1{
+    text-align: center;
+  }
+  .welcome h5{
+    text-align: center;
+  }
+  .btn-brown {
+    background-color: brown;
+    color: white;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-brown:hover {
+    background-color: red;
+  }
+  #search{
+    height: 50px;
+  }
+  .containerx{
+    padding-top: 20px;
+  }

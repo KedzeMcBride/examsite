@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/bootstrap.js">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Footer</title>
+</head>
+<body>
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3  col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase md-4 font-weight-bold text-warning">Goodbye</h5>
+                    <p>Lorem ipsum dolor sit, Here is the Websites footer done on html and change to PHP then called in another File!</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">The Provider</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Creativity</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Locate us</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">family</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h5>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Home</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">About</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Contact</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Services</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                    <p>
+                        <a href="" class="fas fa-home mr-3"></a>Molyko, Buea
+                    </p>
+                    <p>
+                        <a href="" class="fas fa-envelope mr-3"></a>PO-Box, UB-Junction
+                    </p>
+                    <p>
+                        <a href="" class="fas fa-print mr-3"></a>10912122
+                    </p>
+                    <p>
+                        <a href="" class="fas fa-phone mr-3"></a>672592733
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row-align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>Copyright @2024 Dynamic web:
+                        <a href="" style="text-decoration: none;">
+                        <strong class="text-warning">The Providers</strong></a>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

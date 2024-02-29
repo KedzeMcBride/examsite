@@ -1,0 +1,96 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Ubuntu;
+}
+
+body {
+     background-color: #ececec;
+     display: flex;
+     height: 100vh;
+}
+
+.blue {
+     background-color: #001eff;
+}
+
+.form-container {
+     position: relative;
+     width: 100%;
+     max-width: 420px;
+     margin:auto;
+     box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+     padding: 40px;
+}
+
+
+.top {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+}
+
+.top .bar {
+     display: inline-block;
+     width: 20px;
+     height: 30px;
+     border: 1px solid #444;
+     border-top-left-radius: 100%;
+     border-bottom-right-radius: 100%;
+}
+
+.form-group {
+     display: block;
+     width: 100%;
+     border: 1px solid #222;
+     font-size: 16px;
+     padding:10px 20px;
+     margin-bottom: 20px;
+}
+
+input:is(:focus, :hover) {
+     outline-color: #001eff;
+}
+
+input[type=submit] {
+     padding:10px 20px;
+     font-size: 16px;
+     background-color: #001eff;
+     color: #fff;
+     text-transform: uppercase;
+     border: 1px solid #001eff;
+     margin-top: 10px;
+     transition: .4s;
+}
+
+input[type=submit]:is(:focus, :hover) {
+     background-color: transparent;
+     cursor: pointer;
+     color: #001eff;
+}
+.card .img-fluid{
+     border-radius: 999px;
+}
+body::before{
+     content: '';
+     height: 60px;
+     display: block;
+}
+footer .nav-link{
+     color: white;
+}
+.social-icon {
+     width: 50px;
+     height: 50px;
+     text-align: center;
+     font-size: 25px;
+     line-height: 25px;
+     border-radius: 10px;
+     color: #222;
+     background-color: #fff;
+     line-height: 50px;
+     margin-inline:10px ;
+}
+
